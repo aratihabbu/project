@@ -1,0 +1,236 @@
+body{
+    margin:auto;
+    background-color: rgb(247, 243, 243);
+    color: black;
+}
+.mydark{
+    background-color: black;
+    color: white;
+}
+header{
+    font-size: 50px;
+    color: brown;
+    font-weight: bold;
+}
+#coupons{
+    height: 400px;
+    width: 400px;
+    background-color: rgb(20, 153, 111);
+    margin: auto;
+    margin-top: 20px;
+        display: none;
+}
+.nav {
+    background-color: rgb(239, 239, 251); 
+    list-style-type: none;
+    text-align: center;
+    margin: 5;
+    padding: 0;
+
+}
+  
+.nav li {
+    display: inline-block;
+    font-size: 20px;
+    padding: 50px;
+    
+}
+  
+#page_container{
+    height: 600px;
+    width: 100%;
+    margin-top: 8%;
+   /*border: 5px dotted black;*/
+background-image:url('image/divA.webp');
+background-repeat: no-repeat;
+background-size:cover;
+}
+
+.division_A{
+    height: 600px;
+    margin-top:-6%;
+    width: 100%;
+    /*border: 5px solid pink;*/
+}     
+
+.A1{
+    margin-top:2%;
+    margin-left:42%;
+    font-weight:bold;
+    font-size:40px;
+    color:blue;*
+    text-align:center;
+    position:absolute;
+}
+.A2{
+    margin-top:10%;
+    margin-left:24%;
+    font-size:30px;
+    color:pink;
+    text-align:center;
+    position:absolute;
+}
+.btn{
+    padding: 10px 20px;
+    margin-top: 10px;
+}
+.btn_inverted{
+    margin-top:19%;
+    margin-left:43%;
+    background: rgba(0,0,0,0);
+    border: 2px solid #ffffff;
+    color: #fff;
+    padding:10px 20px;
+    text-align:center;
+    display:inline-block;
+    text-decoration:none;
+    font-size:33px;
+    vertical-align:middle;
+}
+#page_container1{
+    height: 400px;
+    width: 100%;
+ /*   border: 5px dotted black;*/
+    box-sizing: border-box;
+   
+}
+.division_B{
+    display: flex;
+}
+
+.B1{
+    height: 364px;
+    /*width: 45%;*/
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 2%;
+    margin-right: 1%;*/
+    border: 5px solid green;
+    font-size: 30px;
+    text-align: center;
+    padding:10px;
+    flex:50% }
+.B2{
+    height: 379px;
+    width: 45%;
+    float: left;
+    margin-top: 1%;
+    margin-bottom: 10%;
+    margin-left: 50%;
+    margin-right: 1%;
+    border: 5px solid red; 
+}
+#page_container2{
+    height: 600px;
+    width: 100%;
+ /*border: 5px dotted black;*/
+    box-sizing: border-box;
+    background-image:url('image/backtoschool.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+       
+    .division_C{
+        height: 600px;
+        margin-top:2%;
+        width: 100%;
+        /*border: 5px solid pink;*/
+    }     
+    
+
+.C1{
+    margin-top:2%;
+    margin-left:32%;
+    font-weight:bold;
+    font-size:40px;
+    color:blue;*
+    text-align:center;
+    position:absolute;
+}
+.C2{
+    margin-top:10%;
+    margin-left:24%;
+    font-size:30px;
+    color:pink;
+    text-align:center;
+    position:absolute;
+}
+#back_top{
+    width:50px;
+    height:50px;
+    background:black;
+    color:#fff;
+    text-align:center;
+    position:fixed;
+    right:60px;
+    margin-bottom: 90px;
+    bottom:60px;
+    border-radius:5px;
+}
+footer{
+    height:50px;
+    width:100%;
+    border:5px solid #d2e3e2;
+    text-align:left;
+    box-sizing:border-box;
+    display: table-row;
+}
+
+.row
+{display:flex;
+}
+ .ftext
+{
+    flex:50%;
+    margin-top:2px;
+}
+
+.slogo {
+    
+    height: 50px;
+/*width: 50%;*/
+}
+
+ul{
+    list-style: none;
+    display:block;
+     margin-right: 10px;
+    right: 0%;    
+}
+   
+    .fa{
+        display:inline-block;
+        -webkit-font-smoothing:antialiased;
+        font-size:inherit;
+        text-rendering:auto;
+        font: 14px/1 FontAwesome;
+    }
+    #social_sites{
+        height: 50px;
+        /*border: 5px dotted orange;*/
+        /* margin: left 20px;*/
+        padding-top:6px;
+        text-align:right;
+        display: block;    
+        float: right;
+        clear: none;  
+    
+}
+ul {
+    list-style-type:none;
+    display:inline-block;
+  }
+  
+  img {
+    width:51px;
+    height:0px;
+    vertical-align:middle;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+  }
+  
+  li {
+    display:inline-block;
+  }
+  
